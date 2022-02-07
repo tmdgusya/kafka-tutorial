@@ -10,7 +10,7 @@ then
 else
     sh ../kafka_2.12-2.3.0/bin/kafka-topics.sh \
 --create \
---bootstrap-server localhost:9092 \
+--bootstrap-server localhost:9093 \
 --partitions 1 \
 --replication-factor 1 \
 --config retention.ms=172800000 \

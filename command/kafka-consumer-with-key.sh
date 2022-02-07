@@ -3,7 +3,7 @@
 topicName=$1
 
 sh ../kafka_2.12-2.3.0/bin/kafka-console-consumer.sh \
---bootstrap-server localhost:9092 \
+--bootstrap-server localhost:9093 \
 --topic $topicName \
 --property "print.key=true" \
 --property "key.separator=:" \
